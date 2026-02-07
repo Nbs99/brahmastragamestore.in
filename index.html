@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>Brahmastra Game Store | Buy Premium PC, PS5 & Xbox Games</title>
+    <meta name="description" content="India's #1 Premium Game Store. Buy Steam, Epic, PS5, Xbox digital games at cheapest prices. Owner: Naman Sejpal. WhatsApp: 9313339081.">
+    <meta name="keywords" content="PC Games, PS5 Games, Xbox Games, Buy Games Online, Cheap Games, Steam Digital Games, Epic Games, Brahmastra, Brahmix, Gaming Store India, Naman Sejpal">
+    <meta name="author" content="Naman Sejpal">
+    <meta name="owner" content="Naman Sejpal">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://brahamstragamestore.in/">
+    <meta property="og:title" content="Brahmastra Game Store | Premium Digital Game Shop">
+    <meta property="og:description" content="Get the latest games at unbeatable prices. Instant delivery via WhatsApp (9313339081). Developed by Naman Sejpal.">
+    <meta property="og:image" content="logo.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://brahamstragamestore.in/">
+    <meta name="twitter:title" content="Brahmastra Game Store | Premium Digital Game Shop">
+    <meta name="twitter:description" content="Get the latest games at unbeatable prices. Instant delivery via WhatsApp. Owner: Naman Sejpal.">
+    <meta name="twitter:image" content="logo.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Audiowide&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              tech: ['Rajdhani', 'sans-serif'],
+              display: ['Orbitron', 'sans-serif'],
+              amazing: ['Audiowide', 'cursive'],
+            },
+            colors: {
+              brahma: {
+                base: '#020202',
+                surface: '#0c0c0c',
+                border: '#ffffff1a',
+                cyan: '#06b6d4',
+                purple: '#7c3aed',
+                neon: '#d946ef', 
+              }
+            },
+            animation: {
+              'marquee': 'marquee 30s linear infinite',
+              'pulse-fast': 'pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'float': 'float 6s ease-in-out infinite',
+              'spin-reverse': 'spin-reverse 1s linear infinite',
+            },
+            keyframes: {
+              marquee: {
+                '0%': { transform: 'translateX(0%)' },
+                '100%': { transform: 'translateX(-100%)' },
+              },
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-20px)' },
+              },
+              'spin-reverse': {
+                'from': { transform: 'rotate(360deg)' },
+                'to': { transform: 'rotate(0deg)' },
+              }
+            },
+            backgroundImage: {
+              'cyber-grid': "linear-gradient(to right, #1f2937 1px, transparent 1px), linear-gradient(to bottom, #1f2937 1px, transparent 1px)",
+            }
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.40.0",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-brahma-base text-white overflow-x-hidden selection:bg-brahma-cyan selection:text-black">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
